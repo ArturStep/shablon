@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+h2 {
+    width: 100%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bold;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 35px;
+    color: #333;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.btn2 {
+    background-color: #2062a5;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    margin-right: 2%;
+    position: fixed;
+    z-index: 101;
+    bottom: 0%;
+    right: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+}
+
+.b7 {
+    font-size: 14px;
+    border: none;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.nork   {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 8%;
+}
+
+.info2 {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+.adress {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.telephone {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.btncall {
+    margin-right: 100px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 25px;
+    padding: 16px 26px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.p4 {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.meet {
+    font-size: 22px;
+}
+
+.btn1 {
+    background-color: #0c4c8d;
+    width: 100%;
+    height: 60px;
+}
+
+.b5 {
+    border:none;
+    background: transparent;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.b100px{
+    margin-left: 100px;
+}
+
+.dropbtn {
+    border:none;
+    background: transparent;
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0c4c8d;
+    min-width: 140px;
+    z-index: 150;
+    width: 140px;
+    font-size: 13px;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 4px 14px 4px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+background-color: rgb(1, 42, 119);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: rgb(1, 42, 119);
+}
+
+
+
+.forest {
+    width: 100%;
+    height: inherit;
+    max-width: 100%;
+}
+
+.img-wrap {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.h2-wraper {
+    padding: 20px 30px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 70%;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    border-radius: 2%;
+}
+
+.line {
+    width: 95%;
+    height: 2px;
+    background-color: #007bfe;
+}
+
+.p1 {
+width: 95%;
+color: rgba(0, 0, 0, 0.712);
+font-size: 16px;
+margin-top: 25px;
+margin-bottom: 25px;
+line-height: 25px;
+}
+
+.b1 {
+    text-align: left;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: #FFF;
+    border: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 24px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.info1 {
+    text-align: center;
+    width: 100%;
+    line-height: 15px;
+    color: #333;
+}
+
+.katalog1 {
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.katalog2 {
+    font-size: 18px;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.p2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 35px;
+    color: #333;
+    text-align: center;
+}
+
+.p3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1 px;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.block {
+    float: left;
+    width: 240px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-color: grey;
+    border: 1px solid rgb(219, 219, 219);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
